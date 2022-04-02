@@ -3,16 +3,17 @@ class Route(object):
     Defines the available parameters in a Wikiloc Route objects.
     """
     
-    def __init__(self, name=None, activity=none, start=None, distance=0.0, elevation=0.0, rank1=0.0, rank2=0.0, description=None):
+    def __init__(self, name=None, activity=None, start=None, distance=0.0, elevation=0.0, rank1=0.0, rank2=0.0, 
+                 description=None, imageUrl1=None, imageUrl2=None, imageUrl3=None):
         """
         Instantiate an Article
-        :param name: name of the article
-        :param price: price of the article
-        :param no_iva: price without IVA of the article
-        :param pvp: PVP price of the article
-        :param discount: discount applied
-        :param rating: rating of the article
-        :param features: list of article's features: see feature.py
+        :param name: name of the route
+        :param activity: Type of activity
+        :param start: Description of the starting point
+        :param distance: distance of the route
+        :param elevation: Elevation gain of the route
+        :param rank1: Wikiloc rating of the route
+        :param rank2: Users rating of the route
         """
         self.name = name
         self.activity = activity
@@ -22,3 +23,6 @@ class Route(object):
         self.rank1 = rank1
         self.rank2 = rank2
         self.description = description
+        self.imageUrl1 = imageUrl1
+        self.imageUrl2 = imageUrl2
+        self.imageUrl3 = imageUrl3
