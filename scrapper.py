@@ -22,7 +22,6 @@ class ScrapperUtils:
         rank                = c.contents[5].contents[3].contents[5].contents[3].text.strip().split('|')    
         route.rank1         = rank[0].strip()
         route.rank2         = rank[1].strip()
-        route.description   = c.contents[9].text.strip()
         route.imageUrl1      = c.contents[7].contents[1].contents[1].attrs['srcset']
         route.imageUrl2      = c.contents[7].contents[3].contents[1].attrs['srcset']
         route.imageUrl3      = c.contents[7].contents[5].contents[1].attrs['srcset']

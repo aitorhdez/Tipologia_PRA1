@@ -16,5 +16,5 @@ for i in range(1, 100, 1):
     utils.ParseRoutesPage(url, ItemsList)
 
 # Export to csv to custom path
-exporter.ToCsv(ItemsList, 'data_path.csv')
+exporter.ToCsv(ItemsList, 'data.csv')
 
