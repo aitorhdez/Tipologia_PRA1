@@ -2,7 +2,7 @@
 
 ## Introducció
 
-L'objectiu d'aquest codi és implementar un WebScrapping sobre la popular pàgina web de rutes Wikiloc. La consulta està preparada per a executar un webscrapping de les 1500 millors rutes, ordenades per ranking de popularitat / qualitat. La informació que ens mostra el buscador és la següent:
+L'objectiu d'aquest codi és implementar un WebScrapping sobre la popular pàgina web de rutes Wikiloc. La consulta està preparada per a executar un webscrapping de les 3000 millors rutes, ordenades per ranking de popularitat / qualitat. La informació que ens mostra el buscador és la següent:
 
 ![image](https://user-images.githubusercontent.com/37300782/161796482-ac52b381-0518-42c1-9b54-f53a797915ca.png)
 
