@@ -57,3 +57,9 @@ La llicència escollida per a aqquest projecte ha estat la llicència CC BY-SA 4
   - S'ha d'acreditar el nom del creador de les dades, indicant si s'han fet canvis al conjunt de dades.
   - Si es modifica o es transformen les dades del dataset, s'han de distribuir les modificacions sota la mateixa llicència plantejada.
 
+## Dataset
+
+El dataset resultat de l'exploració es pot trobar al link següent:
+
+https://zenodo.org/record/6421086#.Yk7GHsjP2Uk
+
